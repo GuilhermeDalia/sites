@@ -1,0 +1,217 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');}    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor0: #c5ebd6;
+    --cor01:#83e1ad;
+    --cor02:#3ddc84;
+    --cor03:#2fa866;
+    --cor04:#1a5c37;
+    --cor05:#063d1e;
+}
+
+header{
+    background-image: linear-gradient(to bottom,rgb(109, 187, 144),rgb(32, 107, 65), rgb(6, 61, 30));
+}
+.titulo-header{
+    color: white;
+    font-size:48px;
+    font-family:'Bebas Neue', cursive;
+    text-align: center;
+    padding-top: 40px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+.texto-header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+nav{
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+}
+nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: var(--cor01);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+
+nav > a:hover{
+    background-color: var(--cor03);
+    color: var(--cor05);
+}
+
+body{
+    background-color: rgb(235, 229, 197);
+}
+.pag01{
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 1px 7px 14px rgba(0, 0, 0, 0.5);
+}
+
+.titulo-principal{
+    font-size: 28px;
+    font-family: idroid;
+    color: #063D1E;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    text-align: left;
+}
+.subtitulo-principal{
+    background-color: #3ddc84;
+    font-family: idroid;
+    font-size: 20px;
+    color: #1A5C37;
+    padding-left: 10px;
+    
+}
+p{
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-indent: 30px;
+    text-align: justify  
+    
+    
+}
+.p01{
+    padding-bottom: 20px;
+    
+}
+.p02{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.imagens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.p03{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.p04{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.p05{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.p06{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.div01{
+    background-color: rgb(6, 61, 30);
+    margin: 0px -20px 30px -20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+.div01 > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+.terceiro-titulo{
+    background-color: rgb(6, 61, 30);
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 15px;
+    
+}
+.quadrado{
+    background-color: rgb(131, 225, 173);
+    border-radius: 0px 0px 10px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 1px 7px 14px rgba(0, 0, 0, 0.288);
+}
+
+.p07{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.p08{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.p09{
+    padding-bottom: 20px;
+}
+.p10{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+footer > p {
+    background-color: rgb(6, 61, 30);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+strong{ color: #1A5C37;
+    font-weight: bold;
+}
+
+.link{
+    background-color: #3ddc84;
+    color: var(--cor05);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2px 6px;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: var(--cor04);
+}
+.link::after{
+    content: '\1F517';
+}
