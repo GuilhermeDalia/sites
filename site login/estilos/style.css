@@ -1,0 +1,117 @@
+@charset "UTF-8";
+   *{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   }
+   body{
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+   }
+   main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+   }
+   #login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 515px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+   }
+   #login div#imagem{
+    display: block;
+    background: #5f2c82 url('../imagens/pexels-dinnow-9444476.jpg');
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   }
+   #formulario{
+    display: block;
+    padding: 10px;
+   }
+   #formulario h1{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+   }
+   #formulario p{
+    font-size: 0.8em;
+   }
+   .campo{
+    background-color: rgba(255, 185, 54, 0.918);
+    border: 2px solid rgba(255, 185, 54, 0.918);
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    }
+    .campo label{
+        display: none;
+    }
+    .campo i{
+        font-size: 2em;
+        width: 40px;
+        color: white;
+        padding: 5px;
+        
+        
+    }
+   .input{
+    background-color: #04cfcd;
+    font-size: 1em;
+    width:calc(100% - 46px);
+    height: 100%;
+    transform: translateY(-12px);
+    border: 0px;
+    border-radius: 5px;
+    padding: 4px;
+   }
+   .input:focus-visible{
+    background-color: white;
+   }
+   .enviar{
+    background-color: #6adfdb;
+    color: white;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+   }
+   .enviar:hover{
+    background-color: #2D6462;
+   }
+   .esqueci{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #6adfdb;
+    border-radius: 10px;
+    margin-top: 8px;
+    cursor: pointer;
+   }
+   .esqueci:hover{
+    background-color: #6adfdb;
+   }
