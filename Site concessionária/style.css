@@ -1,26 +1,41 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
 header{
-    background-color: rgba(31, 126, 155, 0.582);
+    background-color: rgb(2, 42, 79);
     padding: 10px;
     margin-bottom: 10px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.377);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.233);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 header h1{
     color: white;
     font-size: 3em;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 header nav{
     margin-top: 10px;
 }
 header a{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
     padding: 10px;
     text-decoration: none;
     color: white;
@@ -33,6 +48,77 @@ header a:hover{
     background-color: white;
     
 }
+.banner {
+    text-align: center;
+    padding: 40px;
+}
+.banner h1 {
+    font-size: 36px;
+    color: rgb(133, 152, 172);
+    font-family: 'Belanosima', sans-serif;   
+    text-decoration: underline; 
+}
+main{
+    text-align: center;
+}
+main h2{
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: rgb(133, 152, 172);
+    font-family: 'Belanosima', sans-serif;
+}
+main section{
+    display: inline-block;
+    width: 300px;
+    margin: 20px; 
+    background-color: rgb(133, 152, 172);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+
+}
 main img{
-    width: 350px;
+    width: 100%;
+    max-height: 200px;
+    margin-bottom: 10px;
+    
+}
+.info h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.info p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.info .btn{
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition-duration: 1s;
+}
+.info .btn:hover{
+    color: black;
+    text-decoration: underline;
+    background-color: white;
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(2, 42, 79);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+}
+@media screen and (min-width: 1800px){
+    footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 10px;
+    }
 }
