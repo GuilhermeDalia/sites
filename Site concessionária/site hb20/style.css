@@ -154,4 +154,8 @@ footer {
     .whats{
         display: none;
     }
+    .btn{
+        padding: 20px;
+        margin-right: 20px;
+    }
 }
