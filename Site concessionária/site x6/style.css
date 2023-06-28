@@ -142,6 +142,8 @@ footer {
     }
     .infos{
         margin-top: 50px;
+        padding: 10px;
+        margin-right: 10px;
     }
     footer{
         position : absolute;
